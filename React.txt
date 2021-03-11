@@ -1,0 +1,7 @@
+crear proyect react: npx create-react-app (nombre de la app)
+rafce: crea una plantilla de componente automáticamente
+state: Se usan para cambiar dinamicamente el contenido de las apps (seria como un properties en kivy)
+
+alt gr + } = ` (backticks)
+
+npm install react-router-dom
