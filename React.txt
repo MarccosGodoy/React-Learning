@@ -5,3 +5,6 @@ state: Se usan para cambiar dinamicamente el contenido de las apps (seria como u
 alt gr + } = ` (backticks)
 
 npm install react-router-dom
+
+npm install redux react-redux 
+#React redux es utilizado para contectar redux y react
