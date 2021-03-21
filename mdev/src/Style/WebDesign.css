@@ -44,3 +44,108 @@ a {
   width: 100%;
   padding: 0 10px;
 }
+.web-main {
+  background: #e61f5b;
+  height: 102vh;
+  color: white;
+}
+
+.web-main h5 {
+  font-size: 10vh;
+  font-weight: 600;
+  padding-top: 5vh;
+}
+
+.main-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.webMain-Descripcion,
+.webMain-img {
+  width: 50%;
+}
+
+.webMain-img img {
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.webMain-Descripcion p {
+  font-size: 5vh;
+}
+
+.web-articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.web-footer {
+  background: #e61f5b;
+  margin-top: 50px;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.web-footer h4 {
+  text-align: center;
+  font-size: 10vh;
+  font-weight: 500;
+  padding-top: 100px;
+}
+
+.web-footer-section {
+  padding: 0 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.web-footer-section article {
+  max-width: 300px;
+  margin: 0 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.web-footer-section h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.web-footer-section p {
+  font-size: 20px;
+}
+
+.web-footer a {
+  background: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 100px;
+  color: #e61f5b;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}

@@ -15,3 +15,10 @@
   text-decoration: none;
   color: white;
 }
+
+#Logo {
+  font-style: italic;
+  font-size: 4vh;
+  position: relative;
+  right: 12vh;
+}

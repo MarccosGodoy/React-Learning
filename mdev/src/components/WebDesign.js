@@ -23,35 +23,44 @@ const WebDesign = () => {
                 </div>
                 
             </header>
-            <main>
+            <main className="web-main">
                 <h5>Diseño responsive</h5>
-                <p>Todos nuestros desarrollos se adaptan al formato de los smarthphones y tablets ademas de las computadoras de escritorio</p>
-                <img src={web2} alt="diseño web responsive"/>
+                <div className="main-contenido">
+                    <div className="webMain-Descripcion">
+                        <p>Todos nuestros desarrollos se adaptan al formato de los smarthphones y tablets ademas de las computadoras de escritorio</p>
+                    </div>
+                    
+                    <div className="webMain-img"><img src={web2} alt="diseño web responsive"/></div>
+                </div>
+                
+                
             </main>
 
-            <section>
+            <section className="web-articles">
                 <ArticleWeb titulo="Landing Page" subtitulo="Web de 1 sección" descripcion1="Con la informacion escencial" descripcion2="Link a Redes Sociales" precio="$5.000"/>
                 <ArticleWeb titulo="Tienda Online" subtitulo="Web de 4 sección" descripcion1="Hasta 30 Productos/Servicios" descripcion2="Link a Redes Sociales" precio="$15.000"/>
                 <ArticleWeb titulo="Web Pro" subtitulo="Web de 5 sección" descripcion1="Hasta 45 Productos/Servicios" descripcion2="Link a Redes Sociales" precio="$20.000"/>
             </section>
 
-            <footer>
+            <footer className="web-footer">
                 <h4>Formas de pago</h4>
-                <article>
-                    <div className="numero"> <p>1</p> </div>
-                    <h5>Efectivo</h5>
-                    <p>Se abona el 50% para iniciar el trabajo y el 50% al terminar</p>
-                </article>
-                <article>
-                    <div className="numero"> <p>2</p> </div>
-                    <h5>MercadoPago</h5>
-                    <p>Se abona la totalidad del trabajo <br/> Hasta 6 cuotas sin interes</p>
-                </article> 
-                <article>
-                    <div class="numero"> <p>3</p> </div>
-                    <h5>Transferencia Bancaria</h5>
-                    <p>Se abona el 50% para iniciar el trabajo y el 50% al terminar</p>
-                </article>
+                <section className="web-footer-section">
+                    <article>
+                        <div className="numero"> <p>1</p> </div>
+                        <h5>Efectivo</h5>
+                        <p>Se abona el 50% para iniciar el trabajo y el 50% al terminar</p>
+                    </article>
+                    <article>
+                        <div className="numero"> <p>2</p> </div>
+                        <h5>MercadoPago</h5>
+                        <p>Se abona la totalidad del trabajo <br/> Hasta 6 cuotas sin interes</p>
+                    </article> 
+                    <article>
+                        <div class="numero"> <p>3</p> </div>
+                        <h5>Transferencia Bancaria</h5>
+                        <p>Se abona el 50% para iniciar el trabajo y el 50% al terminar</p>
+                    </article>
+                </section>
                 <Link to='/Contacto'>
                     Contacto
                 </Link>

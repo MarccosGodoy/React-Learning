@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
+import '../Style/ArticleWeb.css';
 
 const ArticleWeb = ({titulo, subtitulo,descripcion1, descripcion2, precio}) => {
     return (
-        <div>
+        <div className="article-web">
             <h5>{titulo}</h5>
             <h6>{subtitulo}</h6>
             <ul>

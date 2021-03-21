@@ -1,0 +1,17 @@
+h4 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 50px;
+  color: #e61f5b;
+  padding-top: 30px;
+}
+
+.info-contenedor {
+  background: #e61f5b;
+  color: white;
+}
+
+.conocimientos-contenedor {
+  display: flex;
+}
