@@ -1,0 +1,25 @@
+h2 {
+  color: #ff4356;
+  margin: 0;
+  margin-bottom: 60px;
+}
+.start-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.start-buttons a {
+  display: block;
+  background: #ff4356;
+  margin: 0 5px;
+  width: 50px;
+  padding: 8px 30px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}

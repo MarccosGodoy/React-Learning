@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+main {
+  height: 530px;
+}
+.Page-Tittle {
+  color: #ff4356;
+  font-size: 100px;
+  margin: 0;
+  margin-top: 10px;
+  padding-top: 15vh;
+}
