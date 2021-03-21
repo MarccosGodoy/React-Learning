@@ -4,18 +4,24 @@ import {Link} from 'react-router-dom';
 import web1 from '../Images/web1.png'
 import web2 from '../Images/web2.png'
 import ArticleWeb from './ArticleWeb';
+import '../Style/WebDesign.css';
 
 const WebDesign = () => {
     return (
-        <div>
+        <div className="WebDesign">
+            <Nav/>
             <header>
-                <Nav/>
-                <h4>Diseño Web <br/> Personalizado</h4>
-                <p>Diseños atractivos y dinámicos que daran una imagen profesional a su empresa</p>
-                <Link to='/Contacto'>
-                    Contacto
-                </Link>
-                <img src={web1} alt="diseño web responsive"/>
+                <div className="Webheader-descripcion">
+                    <h4>Diseño Web <br/> Personalizado</h4>
+                    <p>Diseños atractivos y dinámicos que daran una imagen profesional a su empresa</p>
+                    <Link to='/Contacto'>
+                        Contacto
+                    </Link>
+                </div>
+                <div className="Webheader-img">
+                    <img src={web1} alt="diseño web responsive"/>
+                </div>
+                
             </header>
             <main>
                 <h5>Diseño responsive</h5>
