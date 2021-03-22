@@ -22,3 +22,9 @@
   position: relative;
   right: 12vh;
 }
+
+@media screen and (max-width: 800px) {
+  #Logo {
+    display: none;
+  }
+}

@@ -30,3 +30,19 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 800px) {
+  .Start header {
+    height: 80vh;
+  }
+  .Start main {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 200vh;
+  }
+  .Start h2 {
+    padding: 0 10px;
+  }
+  .Start header a {
+    margin-top: 30vh;
+  }
+}

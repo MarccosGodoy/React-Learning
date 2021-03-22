@@ -41,3 +41,14 @@
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
 }
+
+@media screen and (max-width: 800px) {
+  .article-start-contenedor {
+    width: 100%;
+    padding: 0 20px;
+    margin: 10px 0;
+  }
+  .article-start h5 {
+    font-size: 4vh;
+  }
+}

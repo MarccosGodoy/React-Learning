@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import python from '../Images/Logos/Python.png'
 import CSS from '../Images/Logos/CSS.png'
-import HTML from '../Images/Logos/Python.png'
+import HTML from '../Images/Logos/html.png'
 import JavaScript from '../Images/Logos/JavaScript.png'
 import AdobePS from '../Images/Logos/Adobe PS.png'
 import AdobeXd from '../Images/Logos/AdobeXd.png'
@@ -14,9 +14,7 @@ const Info = () => {
             <Nav/>
             <h4>Informacion</h4>
             <div className="info-contenedor">
-                <p>Mi nombre es Marcos Godoy, me dedico a desarrollar aplicaciones web, móviles, de escritorio y bots. <br/> 
-                    Busco con mis programas brindar soluciones para problemas cotidianos en las áreas de publicidad y la mejoría personal. <br/> 
-                    También ayudar a aquellas personas que tengan una idea/proyecto y quieran darle vida.
+                <p>Mi nombre es Marcos Godoy, me dedico a desarrollar aplicaciones web, móviles, de escritorio y bots.  <br/> Busco con mis programas brindar soluciones para problemas cotidianos en las áreas de publicidad y la mejoría personal. <br/>También ayudar a aquellas personas que tengan una idea/proyecto y quieran darle vida.
                 </p>
                 <div className="conocimientos-contenedor">
                     <div>

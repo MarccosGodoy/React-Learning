@@ -1,9 +1,10 @@
 import React from 'react'
 import Nav from './Nav'
+import '../Style/Contacto.css';
 
 const Contacto = () => {
     return (
-        <div>
+        <div className="Contacto">
             <Nav/>
             <h5>Contacto</h5>
             <div className="medios">

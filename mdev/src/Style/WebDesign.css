@@ -97,6 +97,7 @@ a {
   font-size: 10vh;
   font-weight: 500;
   padding-top: 100px;
+  color: white;
 }
 
 .web-footer-section {
@@ -148,4 +149,83 @@ a {
   font-weight: bold;
   border-radius: 5px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .Webheader-img,
+  .Webheader-descripcion {
+    width: 100%;
+  }
+  .WebDesign header {
+    height: 100vh;
+    display: block;
+  }
+  .Webheader-descripcion h4 {
+    font-size: 6vh;
+  }
+
+  .Webheader-descripcion p {
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 2vh;
+  }
+
+  .Webheader-descripcion a {
+    display: none;
+  }
+  .Webheader-img {
+    margin-top: 13vh;
+  }
+  .web-main {
+    height: 100vh;
+  }
+
+  .web-main h5 {
+    font-size: 8vh;
+  }
+
+  .main-contenido {
+    flex-direction: column;
+  }
+
+  .webMain-Descripcion,
+  .webMain-img {
+    width: 100%;
+  }
+
+  .webMain-img img {
+    margin-top: 5vh;
+  }
+
+  .webMain-Descripcion p {
+    font-size: 3vh;
+    margin-top: 5vh;
+  }
+  .web-footer {
+    height: 120vh;
+  }
+
+  .web-footer h4 {
+    font-size: 6vh;
+    padding-top: 50px;
+  }
+
+  .web-footer-section {
+    padding: 0 0px;
+    margin-top: 0px;
+  }
+
+  .web-footer-section article {
+    max-width: 100%;
+    margin: 0 4vh;
+    display: flex;
+  }
+  .web-footer {
+    display: block;
+  }
+  .web-footer a {
+    position: relative;
+    top: 10vh;
+  }
 }

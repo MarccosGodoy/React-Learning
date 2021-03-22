@@ -1,0 +1,32 @@
+.Contacto {
+  background: #e61f5b;
+}
+.Contacto h5 {
+  font-size: 11vh;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 50px;
+  color: white;
+  padding-top: 30px;
+  font-style: italic;
+}
+
+.medios {
+  height: 445px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.medios a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: white;
+  color: #e61f5b;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 10px;
+  width: 20vh;
+  height: 5vh;
+}

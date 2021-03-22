@@ -1,0 +1,23 @@
+.proximamente {
+  background: #e61f5b;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.proximamente h6 {
+  font-size: 5vh;
+}
+
+.proximamente a {
+  text-decoration: none;
+  background: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-style: italic;
+  font-weight: bold;
+  color: #e61f5b;
+}
