@@ -8,13 +8,9 @@ import Board from './Board'
 
 const Sesion = () => {
 
-
-    
-
-    let win = 0;
-    let i = 0;
-    let loss = 0;
-
+    const [wined, setWined] = useState(0);
+    const [losed, setLosed] = useState(0);
+    const [midle, setMidle] = useState('-')
 
     const Aproved = ()=>{
         /*if(i == 3){
@@ -32,21 +28,16 @@ const Sesion = () => {
             alert('Para de jogar rey')
         }
     }*/
-
-
-    function wins(){
-        win = win + 1
-        i = i + 1
-        console.log(win)
-        console.log(i)
-        }
-    
-    function losses(){
-        loss = loss + 1
-        i = i + 1
-        console.log(loss)
-        console.log(i)
+    const wins = ()=>{
+        setWined(wined + 1)
     }
+
+    const losses = ()=>{
+        setLosed(losed + 1)
+    }
+
+
+
 
     
     return (
@@ -59,7 +50,7 @@ const Sesion = () => {
                         <li><a onClick={losses}>LOSS</a> </li>
                     </ul>
                 </div>
-                <Board score1='-' score2='-' score3='-'></Board>
+                <Board score1={wined} score2='-' score3={losed}></Board>
             </main>
             <Footer/>
         </div>
