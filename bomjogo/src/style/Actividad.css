@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+.Actividad {
+  color: white;
+}
+
+.Actividad header {
+  display: flex;
+  flex-direction: column;
+  background: #171717;
+  height: 760px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Actividad header h4 {
+  font-size: 30px;
+}
+
+.accion {
+  text-decoration: none;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 5px 30px;
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  top: 40px;
+}
+
+.img1 {
+  width: 285px;
+  height: 535px;
+  margin-top: 20px;
+}
+
+.Actividad main {
+  background: #e5446e;
+  height: 760px;
+}
+
+.img2 {
+  margin-top: 30px;
+}
+
+.Actividad main p {
+  margin-top: 40px;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.seccion1 {
+  background: #171717;
+  height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion1 article {
+  background: #e5446e;
+  width: 285px;
+  height: 535px;
+  border-radius: 10px;
+}
+
+.seccion1 h5 {
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.seccion1-descripcion {
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.precio {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.seccion1-accion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seccion1-accion a {
+  text-decoration: none;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 5px 30px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.seccion1 li {
+  font-style: italic;
+}
+
+.seccion2 {
+  background: #e5446e;
+  height: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion2 article {
+  background: #171717;
+  width: 285px;
+  height: 535px;
+  border-radius: 10px;
+}
+
+.seccion2 article p {
+  margin-top: 125px;
+}
+
+.Actividad footer {
+  background: #171717;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer h4 {
+  text-align: center;
+  font-size: 6vh;
+  padding-top: 50px;
+  font-weight: 500;
+  padding-top: 100px;
+  color: white;
+}
+
+.footer-section {
+  padding: 0 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.footer-section article {
+  max-width: 100%;
+  margin: 0 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer-section h5 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 20px;
+}
+
+.header-escritorio {
+  display: none;
+}
+.main-escritorio {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .Actividad header {
+    display: flex;
+    flex-direction: row;
+    background: #171717;
+    height: 760px;
+    justify-content: center;
+    align-items: center;
+  }
+  .secciones-contenedor {
+    display: flex;
+  }
+  .seccion1,
+  .seccion2 {
+    width: 50%;
+    background: #171717;
+  }
+  .seccion2 article {
+    background: #e5446e;
+  }
+  .Actividad footer {
+    background: #e5446e;
+  }
+  .header-movil {
+    display: none;
+  }
+  .header-escritorio {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .texto-boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-movil {
+    display: none;
+  }
+  .main-escritorio {
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-escritorio div {
+    width: 50%;
+  }
+  .main-escritorio .imagen img {
+    width: 100%;
+    padding: 20px;
+  }
+}

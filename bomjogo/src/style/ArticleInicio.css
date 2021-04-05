@@ -1,0 +1,36 @@
+.Article {
+  width: 90%;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Article article {
+  display: flex;
+  flex-direction: column;
+  background: #171717;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.Article article img {
+  width: 285px;
+  height: 535px;
+}
+
+.sumate {
+  display: flex;
+  justify-content: center;
+}
+
+#sumate {
+  position: relative;
+  top: 10px;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 5px;
+  border: solid 2px #e5446e;
+}

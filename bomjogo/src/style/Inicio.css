@@ -1,0 +1,84 @@
+.Inicio main {
+  background: #e5446e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Inicio h1 {
+  padding: 0;
+  margin: 0 15px;
+}
+.Inicio nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  padding: 5px;
+}
+
+.menu {
+  width: 5vh;
+  height: 5vh;
+  margin: 10px 30px;
+}
+
+.Inicio header {
+  height: 760px;
+}
+.header-fondo {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+#fondo1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 760px;
+  position: absolute;
+  top: 0px;
+}
+
+#remera {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 10vh;
+  justify-content: center;
+}
+
+.navegar {
+  text-decoration: none;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  top: 50vh;
+}
+
+#remera2 {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  .Inicio main {
+    flex-direction: row;
+  }
+  #remera {
+    display: none;
+  }
+  #remera2 {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    justify-content: center;
+  }
+}

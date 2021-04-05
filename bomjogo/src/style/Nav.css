@@ -1,0 +1,22 @@
+.Nav {
+  background: #e5446e;
+  height: 760px;
+  width: 100%;
+}
+.Nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+.Nav a {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Nav li {
+  margin: 30px 0;
+}
