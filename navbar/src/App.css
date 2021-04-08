@@ -1,0 +1,44 @@
+.sidenav {
+  background: #202020;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  height: 100%;
+  right: -100%;
+
+  transition: all 1s ease-in-out;
+  justify-content: space-evenly;
+}
+
+.sidenav.active {
+  right: 0;
+}
+
+.burger {
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  height: 700px;
+}
+
+.uno {
+  background: #202020;
+  color: white;
+  width: 50%;
+
+  height: 700px;
+}
+
+.dos {
+  display: inline;
+  width: 50%;
+  color: white;
+  background: #e61f5b;
+
+  height: 700px;
+}
