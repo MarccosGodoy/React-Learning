@@ -1,3 +1,13 @@
-.App {
-  text-align: center;
+.NavInicio {
+  background: #202020;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  right: -100%;
+  transition: all 1s ease-in-out;
+  justify-content: space-evenly;
+}
+
+.NavInicio.activo {
+  right: 0;
 }

@@ -1,9 +1,0 @@
-.productos main {
-  display: flex;
-}
-@media screen and (max-width: 800px) {
-  .productos main {
-    flex-direction: column;
-    height: 170vh;
-  }
-}

@@ -1,0 +1,26 @@
+.change-movil {
+  position: absolute;
+  left: 35.5em;
+  top: 4.5em;
+  width: 80px;
+  height: 30px;
+  opacity: 0;
+}
+
+.change-escritorio {
+  position: absolute;
+  left: 28.5em;
+  top: 4.5em;
+  width: 80px;
+  height: 30px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .change-escritorio {
+    display: none;
+  }
+  .change-movil {
+    display: none;
+  }
+}

@@ -1,0 +1,90 @@
+.SobreMi {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 650px;
+  color: white;
+}
+
+.SobreMi p {
+  padding: 10px 30px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.SobreMi main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SobreMi aside {
+  background: #ff4356;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.bars {
+  position: relative;
+  top: -5em;
+  right: -10.5em;
+  cursor: pointer;
+}
+
+.pick {
+  width: 70%;
+}
+.crossmi {
+  width: 7%;
+  top: 1.7em;
+  right: 2.7em;
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .SobreMi {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 740px;
+    color: white;
+  }
+
+  .SobreMi main {
+    grid-row: 2/3;
+  }
+
+  .SobreMi aside {
+    right: -5%;
+    width: 90%;
+  }
+  .SobreMi .titulo {
+    width: 90%;
+  }
+  .pick {
+    width: 50%;
+  }
+  .bars {
+    position: relative;
+    top: 1em;
+    right: -8em;
+  }
+  .crossmi {
+    width: 10%;
+    top: 14%;
+    right: 5.5%;
+  }
+  .SobreMi p {
+    padding: 10px 30px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 1em;
+  }
+}

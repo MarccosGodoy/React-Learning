@@ -1,31 +1,28 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
-import Start from './components/Start'
-import WebDesign from './components/WebDesign'
-import Productos from './components/Productos'
-import AutoPublicador from './components/AutoPublicador'
-import InstaMensajes from './components/InstaMensajes'
-import Proximamente from './components/Proximamente'
-import Info from './components/Info'
+import Inicio from './components/Inicio'
+import SobreMi from './components/SobreMi'
+import Conocimientos from './components/Conocimientos'
 import Contacto from './components/Contacto'
+import BomJogo from './components/BomJogo'
+import GitGud from './components/GitGud'
+import Cestoni from './components/Cestoni'
 
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route path='/' exact component={Start}/>
-          <Route path="/WebDesign" component={WebDesign}/>
-          <Route path='/Productos' component={Productos}/>
-          <Route path='/AutoPublicador'component={AutoPublicador}/>
-          <Route path='/InstaMensajes' component={InstaMensajes}/>
-          <Route path='/Info' component={Info}/>
-          <Route path='/Contacto' component={Contacto}/>
-          <Route path='/Automatizaciones' component={Proximamente}/>
-          <Route path='/Aplicaciones' component={Proximamente}/>
-        </Switch>
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route path='/' exact component={Inicio}/>
+            <Route path="/SobreMi" component={SobreMi}/>
+            <Route path="/Conocimientos" component={Conocimientos}/>
+            <Route path="/Contacto" component={Contacto}/>
+            <Route path="/BomJogo" component={BomJogo}/>
+            <Route path="/GitGud" component={GitGud}/>
+            <Route path="/Cestoni" component={Cestoni}/>
+          </Switch>
+        </div>
     </Router>
   );
 }

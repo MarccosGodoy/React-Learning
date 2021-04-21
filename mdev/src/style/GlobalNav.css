@@ -1,0 +1,42 @@
+.GlobalNav {
+  width: 100%;
+  background: #ff4356;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.GlobalNav.activo {
+  top: 0;
+}
+
+.GlobalNav a {
+  color: white;
+}
+
+.GlobalNav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.equis {
+  width: 2%;
+  position: absolute;
+  left: 93.25%;
+  top: 3%;
+}
+@media screen and (max-width: 800px) {
+  .equis {
+    width: 10%;
+    position: absolute;
+    left: 80.5%;
+    top: 4.6%;
+  }
+}

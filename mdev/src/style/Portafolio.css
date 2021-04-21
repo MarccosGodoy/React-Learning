@@ -1,0 +1,197 @@
+.Portafolio {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 650px;
+  color: white;
+}
+
+.main-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 663px;
+}
+
+.Portafolio aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Portafolio h4 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.porfolio-navegacion {
+  display: flex;
+}
+
+.porfolio-navegacion .back-foward,
+.contador {
+  margin: 30px 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.porfolio-switcher {
+  margin-bottom: 30px;
+}
+
+.porfolio-switcher a {
+  margin: 30px 20px;
+}
+
+.escritorio {
+  color: #e61f5b;
+}
+
+.escritorio.activo {
+  color: white;
+}
+
+.imagend {
+  width: 90%;
+}
+
+.imagend.activo {
+  display: none;
+}
+
+.movil {
+  color: white;
+}
+
+.movil.activo {
+  color: #e61f5b;
+}
+
+.imagendm {
+  display: none;
+}
+
+.imagendm.activo {
+  display: block;
+  width: 24%;
+}
+
+.aside-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-portfolio article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.Portafolio .info {
+  position: relative;
+  top: 10px;
+}
+
+.Portafolio .bars {
+  position: relative;
+  top: -14em;
+  right: -10em;
+  cursor: pointer;
+}
+
+.crossport {
+  width: 6%;
+  top: 1.3em;
+  right: 2.8em;
+  position: absolute;
+  z-index: 1000;
+  opacity: 0;
+}
+
+.aside-portfolio h4 {
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  top: -1em;
+}
+
+.aside-portfolio .info {
+  font-size: 25px;
+  position: relative;
+  top: -1em;
+}
+
+.logo {
+  position: relative;
+  left: -24em;
+  width: 70%;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .Portafolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    height: 100%;
+  }
+  .main-portfolio {
+    height: 850px;
+  }
+
+  .Portafolio .bars {
+    position: relative;
+    top: -45%;
+    right: -16%;
+    cursor: pointer;
+  }
+  .porfolio-switcher {
+    display: none;
+  }
+  .aside-portfolio {
+    display: none;
+  }
+  .imagend {
+    display: none;
+  }
+  .imagendm {
+    display: block;
+    position: absolute;
+    top: 5em;
+    right: 5%;
+    width: 90%;
+  }
+  .porfolio-navegacion {
+    position: absolute;
+    top: 50em;
+    right: 30%;
+  }
+  .logo {
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    width: 30%;
+    margin-bottom: 0em;
+  }
+  .porfolio-switcher a {
+    margin: 0px 20px;
+  }
+  .porfolio-navegacion .back-foward,
+  .contador {
+    margin: 0 15px;
+    color: white;
+    font-size: 20px;
+  }
+  .crossport {
+    width: 10%;
+    top: 4.5%;
+    right: 9%;
+    position: absolute;
+    z-index: 1000;
+  }
+}
