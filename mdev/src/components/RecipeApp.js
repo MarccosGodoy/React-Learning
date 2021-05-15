@@ -1,10 +1,11 @@
 import React,{useState} from 'react'
 import Portafolio from './Portafolio'
 import '../style/Example.css'
-import cestonid from '../images/cestonid.png'
-import cestonidm from '../images/cestonidm.png'
+import reciped from '../images/Reciped.png'
+import recipedm from '../images/Recipedm.png'
 
-const Cestoni = () => {
+
+const RecipeApp = () => {
 
     const [mostrar, setMostrar] = useState(false)
     
@@ -21,9 +22,8 @@ const Cestoni = () => {
         
         <div className="Cestoni">
             {button}
-            <Portafolio titulo="Cestoni" descripcion="E-Commerce" descripcion2="Fiambreria" contador="03" imagend={cestonid} estado={mostrar} imagendm={cestonidm}  siguiente="/RecipeApp" anterior="/GitGud" color="#F37125"/>
+            <Portafolio titulo="Recipe App" descripcion="Web App" descripcion2="Consumo de API de recetas" contador="04" imagend={reciped} estado={mostrar} imagendm={recipedm}  siguiente="/BomJogo" anterior="/Cestoni" color="#D225F3" url="https://marccosgodoy.github.io/recipe-app/"/>
         </div>
     )
 }
-
-export default Cestoni
+export default RecipeApp

@@ -7,7 +7,7 @@ import Contacto from './components/Contacto'
 import BomJogo from './components/BomJogo'
 import GitGud from './components/GitGud'
 import Cestoni from './components/Cestoni'
-
+import RecipeApp from './components/RecipeApp'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
             <Route path="/BomJogo" component={BomJogo}/>
             <Route path="/GitGud" component={GitGud}/>
             <Route path="/Cestoni" component={Cestoni}/>
+            <Route path="/RecipeApp" component={RecipeApp}/>
           </Switch>
         </div>
     </Router>

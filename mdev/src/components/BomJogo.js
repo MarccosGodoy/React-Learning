@@ -22,7 +22,7 @@ const BomJogo = () => {
         
         <div className="BomJogo">
             {button}
-            <Portafolio titulo="BomJogo" descripcion="Landing Page" descripcion2="Club Deportivo" contador="01" imagend={bomjogod} estado={mostrar} imagendm={bomjogodm} url='https://marccosgodoy.github.io/BomJogo' siguiente="/GitGud" anterior="/Cestoni" color="#e61f5b"/>
+            <Portafolio titulo="BomJogo" descripcion="Landing Page" descripcion2="Club Deportivo" contador="01" imagend={bomjogod} estado={mostrar} imagendm={bomjogodm} url='https://marccosgodoy.github.io/BomJogo' siguiente="/GitGud" anterior="/RecipeApp" color="#e61f5b"/>
         </div>
     )
 }
