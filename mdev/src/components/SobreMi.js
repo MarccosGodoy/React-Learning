@@ -5,7 +5,6 @@ import Pick from '../images/Pick.png'
 import GlobalNav from './GlobalNav'
 import Bars from '../images/Bars.png'
 import Cross from '../images/cross.svg'
-import { getAllByAltText } from '@testing-library/dom'
 
 
 

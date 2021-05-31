@@ -21,7 +21,7 @@ const Inicio = () => {
         <div className="Inicio">
             <NavInicio estado={mostrar} />
             <img src={MDev} alt="" className="titulo"/>
-            <h2>Front-End Developer</h2>
+            <h2>Full Stack Developer</h2>
             <Link to="/BomJogo" className="portafolio-boton">
                 Portafolio
             </Link>

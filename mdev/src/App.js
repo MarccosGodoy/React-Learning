@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Inicio from './components/Inicio'
 import SobreMi from './components/SobreMi'
 import Conocimientos from './components/Conocimientos'
