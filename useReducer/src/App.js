@@ -1,5 +1,6 @@
 import Contador from "./components/Contador";
 import ContadorMejorado from "./components/ContadorMejorado";
+import ShopingCart from "./components/ShopingCart";
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <Contador/>
       <hr />
       <ContadorMejorado/>
+      <hr />
+      <ShopingCart/>
     </div>
   );
 }
